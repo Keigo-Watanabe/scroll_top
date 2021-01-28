@@ -1,0 +1,46 @@
+.box {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 5em;
+}
+
+.box1 {
+  background-color: orange;
+}
+
+.box2 {
+  background-color: grey;
+}
+
+.box3 {
+  background-color: green;
+}
+
+.box4 {
+  background-color: lightblue;
+}
+
+#toTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 3em;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hideBtn {
+  opacity: 0;
+}
+
+.showBtn {
+  opacity: 1;
+}
